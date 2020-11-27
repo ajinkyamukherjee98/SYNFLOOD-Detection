@@ -1,0 +1,130 @@
+# $Id: local.rules,v 1.11 2004/07/23 20:15:44 bmc Exp $
+# ----------------
+# LOCAL RULES
+
+#****************************************************	SIGNATURE 1	**************************************************** 
+#	TIME(p) = 1s
+#
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 5, seconds 1;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 9, seconds 1;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 15, seconds 1;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 20, seconds 1;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 21, seconds 1;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 25, seconds 1;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 28, seconds 1;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 29, seconds 1;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 60, seconds 1;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 61, seconds 1;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 62, seconds 1;sid: 100002;rev:1;)
+
+#	Time(p) = 2s
+#
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 5, seconds 2;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 9, seconds 2;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 15, seconds 2;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 20, seconds 2;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 21, seconds 2;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 25, seconds 2;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 28, seconds 2;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 29, seconds 2;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 60, seconds 2;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 61, seconds 2;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 62, seconds 2;sid: 100002;rev:1;)
+
+
+#	Time(p) = 5s
+#
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 5, seconds 5;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 9, seconds 5;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 15, seconds 5;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 20, seconds 5;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 21, seconds 5;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 25, seconds 5;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 28, seconds 5;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 29, seconds 5;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 60, seconds 5;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 61, seconds 5;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 62, seconds 5;sid: 100002;rev:1;)
+#
+
+#	Time(p) = 10s
+#
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 5, seconds 10;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 9, seconds 10;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 15, seconds 10;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 20, seconds 10;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 21, seconds 10;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 25, seconds 10;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 28, seconds 10;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 29, seconds 10;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 60, seconds 10;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 61, seconds 10;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 1";flow:stateless;flags:S;detection_filter:track by_dst,count 62, seconds 10;sid: 100002;rev:1;)
+
+
+#****************************************************   SIGNATURE 2     **************************************************** 
+
+#	TIME(p) = 1s
+#
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 5, seconds 1;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 9, seconds 1;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 15, seconds 1;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 20, seconds 1;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 21, seconds 1;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 25, seconds 1;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 28, seconds 1;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 29, seconds 1;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 60, seconds 1;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 61, seconds 1;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 62, seconds 1;sid: 100002;rev:1;)
+
+#	Time(p) = 2s
+#
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 5, seconds 2;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 9, seconds 2;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 15, seconds 2;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 20, seconds 2;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 21, seconds 2;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 25, seconds 2;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 28, seconds 2;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 29, seconds 2;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 60, seconds 2;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 61, seconds 2;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 62, seconds 2;sid: 100002;rev:1;)
+
+
+#	Time(p) = 5s
+#
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 5, seconds 5;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 9, seconds 5;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 15, seconds 5;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 20, seconds 5;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 21, seconds 5;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 25, seconds 5;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 28, seconds 5;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 29, seconds 5;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 60, seconds 5;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 61, seconds 5;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 62, seconds 5;sid: 100002;rev:1;)
+#
+
+#	Time(p) = 10s
+#
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 5, seconds 10;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 9, seconds 10;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 15, seconds 10;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 20, seconds 10;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 21, seconds 10;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 25, seconds 10;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 28, seconds 10;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 29, seconds 10;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 60, seconds 10;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 61, seconds 10;sid: 100002;rev:1;)
+#alert tcp any any -> $HOME_NET any (msg:"SYN Flood Attack Detected Rule 2";flow:stateless;flags:S;detection_filter:track by_src,count 62, seconds 10;sid: 100002;rev:1;)
+
+
+
+# ----------------
+# This file intentionally does not come with signatures.  Put your local
+# additions here.
+#
